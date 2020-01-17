@@ -1,0 +1,42 @@
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 150px) 30%;
+  grid-template-rows: repeat(5, 50px);
+}
+
+.name_entry,
+ .last_name_entry,
+ .patronymic_entry,
+ .description_entry {
+   height: 25px;
+   grid-column: 1 / 4;
+   outline: none;
+   font-weight: bold;
+ }
+
+.clear,
+.save {
+  cursor: pointer;
+  height: 35px;
+  width: 100px;
+  grid-row: 5 / 6;
+  background: linear-gradient(-45deg, #46bef0, #356eff);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.clear {
+  grid-column: 1 / 2;
+}
+
+.save {
+  grid-column: 2 / 3;
+}
+
+.clear:hover,
+.save:hover {
+  color: #052544;
+  font-weight: bolder;
+}

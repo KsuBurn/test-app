@@ -1,0 +1,15 @@
+.start_button {
+  margin-bottom: 20px;
+  cursor: pointer;
+  height: 35px;
+  background: linear-gradient(-45deg, #46bef0, #356eff);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.start_button:hover {
+  color: #052544;
+  font-weight: bolder;
+}
